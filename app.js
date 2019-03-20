@@ -1,4 +1,4 @@
 function greet(message) {
   alert(message)
 }
-var thing = "surprise"
+var thing = "surprise!"
