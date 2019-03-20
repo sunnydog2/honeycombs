@@ -1,5 +1,14 @@
 # honeycombs
-
+<style>
+  .bigButton {
+color:orange;
+  background-color:blue;
+    margin-left:10px;
+}
+.name{
+  margin-left:50px;
+}
+</style>
   <header>
     <h1>Starting a New App</h1>
     <input type="text" placeholder="give me your name"
@@ -9,18 +18,6 @@
 <button class="bigButton" onclick="greet(thing)">
   Press
 </button>
-.bigButton {
-color:orange;
-  background-color:blue;
-    margin-left:10px;
-}
-.name{
-  margin-left:50px;
-}
-function greet(message) {
-  alert(message)
-}
-var thing = "hello"
    </header>
     <main>
 
@@ -41,5 +38,11 @@ var thing = "hello"
          <img src="http://houstonlibrary.org/sites/default/files/computerclasses_hpl1.jpg">
       </div>
 
-</html>
 </main>
+<script>
+  
+function greet(message) {
+  alert(message)
+}
+var thing = "hello"
+</script>
